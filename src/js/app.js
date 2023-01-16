@@ -2,8 +2,7 @@ import "../scss/app.scss";
 
 window.addEventListener("DOMContentLoaded", () => {
   // This block will be executed once the page is loaded and ready
-  let pokemonCount = 10;
-  const apiUrl = `https://pokeapi.co/api/v2/pokemon/?limit=${pokemonCount}`;
+  const apiUrl = `https://pokeapi.co/api/v2/pokemon/?limit=10`;
 
   const ul = document.querySelector("ul");
 
